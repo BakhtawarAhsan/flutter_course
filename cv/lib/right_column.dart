@@ -6,9 +6,9 @@ class RightColumnContent extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Column(
+    return  Column(
       children: [
-        const Padding(
+         Padding(
           padding: EdgeInsets.fromLTRB(18.0, 0, 0, 0),
           child: Align(
             alignment: Alignment.centerLeft,
